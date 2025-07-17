@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #1f0422, #610764);
+  background: linear-gradient(to right, #dfdfdf, #e2d7e2);
   display: flex;
   justify-content: center;
   padding: 40px 20px;
@@ -25,7 +25,7 @@ body {
 h1 {
   margin-bottom: 30px;
   font-size: 2.2rem;
-  color: #f1f1f1;
+  color: #131313;
 }
 
 /* === CHECKLIST GRID === */
@@ -39,27 +39,27 @@ h1 {
 /* === ITENS DO CHECKLIST === */
 .item-box {
   padding: 20px;
-  background-color: #ffffff15;
+  background-color: #c02b2b15;
   border: 2px solid #fff2;
   border-radius: 12px;
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s ease;
   user-select: none;
-  color: #fff;
+  color: #020202;
   box-shadow: 0 0 10px #00000020;
 }
 
 .item-box:hover {
   transform: scale(1.03);
-  background-color: #ffffff25;
+  background:  linear-gradient(135deg, #128C7E, #96dad2);
 }
 
 .item-box.checked {
-  background-color: #2e1436;
-  color: #fff;
+  background-color: #075E54;
+  color: #ffffff;
   text-decoration: line-through;
-  box-shadow: 0 0 15px #ff33ff80;
+  box-shadow: 0 0 15px #12148a80;
 }
 
 /* === BOTÕES === */
@@ -73,7 +73,7 @@ h1 {
 
 .btn {
   text-decoration: none;
-  background: linear-gradient(135deg, #610764, #9a099e);
+  background: linear-gradient(135deg, #128C7E, #075E54);
   color: white;
   padding: 15px 50px;
   border-radius: 10px;
@@ -85,9 +85,9 @@ h1 {
 }
 
 .btn:hover {
-  background: linear-gradient(135deg, #2e1436, #610764);
+  background: linear-gradient(135deg, #128C7E, #043630);
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px #ff00ff55;
+  box-shadow: 0 6px 20px #95a39a55;
 }
 
 /* === PARABÉNS === */
