@@ -3,7 +3,6 @@ const itens = [
   "Almofada",
   "Anestésico",
   "Aplicador Studex",
-  "Bandagem cortada",
   "Brinco Adulto & Baby",
   "Caixa Ruído Branco",
   "Caneta Certificado",
